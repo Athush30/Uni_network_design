@@ -1,0 +1,28 @@
+Router>en
+Router#conf
+Configuring from terminal, memory, or network [terminal]? ter
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#interface GigabitEthernet6/0
+Router(config-if)#ip address 192.168.60.2 255.255.255.0
+Router(config-if)#
+Router(config-if)#exit
+Router(config)#interface GigabitEthernet7/0
+Router(config-if)#ip address 192.168.50.1 255.255.255.0
+Router(config-if)#ip address 192.168.50.1 255.255.255.0
+Router(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet7/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet7/0, changed state to up
+
+
+Router>en
+Router#conf
+Configuring from terminal, memory, or network [terminal]? ter
+Enter configuration commands, one per line.  End with CNTL/Z.
+	
+Router(config)#router ospf 1
+Router(config-router)#network 192.168.50.0 0.0.0.255 area 1
+Router(config-router)#network 192.168.60.0 0.0.0.255 area 1
+01:23:26: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.50.2 on GigabitEthernet7/network 192.168.50.0 0.0.0.255 area 1
+Router(config-router)#network 192.168.60.0 0.0.0.255 area 1
+Router(config-router)#network 10.0.112.0 0.0.15.255 area 1
