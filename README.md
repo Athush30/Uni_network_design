@@ -1,11 +1,5 @@
 # University of Moratuwa Network Design Documentation
 
-## Overview
-This LaTeX document outlines the comprehensive network design for the University of Moratuwa, focusing on creating a robust, scalable, and secure Local Area Network (LAN) and backbone network infrastructure. The design supports academic, research, and administrative communication needs across the campus. The document was prepared as part of the module **EN2150 - Communication Network Engineering** by students from the Department of Electronic and Telecommunication Engineering.
-
-## Document Structure
-The document is structured into the following key sections:
-
 1. **Introduction**  
    Provides an overview of the proposed backbone network, emphasizing the use of fiber-optic cables, high-performance switches, and modern routing techniques for fast, reliable, and stable communication.
 
@@ -116,9 +110,6 @@ The document is structured into the following key sections:
 
 5. **Justification for Backbone**  
    Explains the preference for active routers and Layer 3 switches over traditional routers, highlighting their performance, scalability, and cost-effectiveness. It also details the selection of single-mode and multi-mode fiber-optic cables for different network segments.
-
-6. **Bill of Materials**  
-   Lists the required hardware, including Layer 3 and Layer 2 switches, servers, and routers, along with quantities, unit prices, and total costs (Grand Total: $97,720).
 
 ## Key Features
 - **Scalable and Hierarchical Design**: Ensures modularity, fault isolation, and future expansion.
