@@ -113,7 +113,7 @@
 
 ## Key Features
 - **Scalable and Hierarchical Design**: Ensures modularity, fault isolation, and future expansion.
-- **High-Performance Infrastructure**: Utilizes fiber-optic cables, Layer 3 switches, and dynamic routing protocols (OSPF, EIGRP).
+- **High-Performance Infrastructure**: Utilizes fiber-optic cables, Layer 3 switches, and dynamic routing protocol (OSPF).
 - **Robust Security**: Implements VLAN segmentation, WPA2-Enterprise, ACLs, firewalls, and IDS/IPS.
 - **Redundancy and Reliability**: Features ring topology, LACP, and dual power supplies for minimal downtime.
 - **Centralized Management**: Employs SNMP for real-time monitoring and fault detection.
